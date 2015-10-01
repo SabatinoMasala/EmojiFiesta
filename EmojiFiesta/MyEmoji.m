@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MyEmoji.m
 //  EmojiFun
 //
 //  Created by Sabatino Masala on 01/10/15.
 //  Copyright © 2015 Sabatino Masala. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MyEmoji.h"
 
-@interface ViewController : UIViewController
-
+@implementation MyEmoji
 
 @end
-

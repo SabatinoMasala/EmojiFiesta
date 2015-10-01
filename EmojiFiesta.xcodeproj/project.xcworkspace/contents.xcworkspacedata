@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EmojiFun.xcodeproj">
+      location = "self:/Users/Sabatino/Desktop/EmojiFun/EmojiFiesta.xcodeproj">
    </FileRef>
 </Workspace>
