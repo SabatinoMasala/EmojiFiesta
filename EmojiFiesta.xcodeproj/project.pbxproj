@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04C5A1CF1BBD26DA00435D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1BD1BBD26DA00435D7E /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		04C5A1D01BBD26DA00435D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5A1BE1BBD26DA00435D7E /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		04C5A1D31BBD26DA00435D7E /* EmojiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1C41BBD26DA00435D7E /* EmojiHelper.m */; settings = {ASSET_TAGS = (); }; };
-		04C5A1D51BBD26DA00435D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1C61BBD26DA00435D7E /* main.m */; settings = {ASSET_TAGS = (); }; };
-		04C5A1D61BBD26DA00435D7E /* MyEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1C81BBD26DA00435D7E /* MyEmoji.m */; settings = {ASSET_TAGS = (); }; };
-		04C5A1D71BBD26DA00435D7E /* MyEmojiCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1CA1BBD26DA00435D7E /* MyEmojiCategory.m */; settings = {ASSET_TAGS = (); }; };
-		04C5A1D81BBD26DA00435D7E /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1CC1BBD26DA00435D7E /* MyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04C5A1CF1BBD26DA00435D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1BD1BBD26DA00435D7E /* AppDelegate.m */; };
+		04C5A1D01BBD26DA00435D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5A1BE1BBD26DA00435D7E /* Assets.xcassets */; };
+		04C5A1D31BBD26DA00435D7E /* EmojiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1C41BBD26DA00435D7E /* EmojiHelper.m */; };
+		04C5A1D51BBD26DA00435D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1C61BBD26DA00435D7E /* main.m */; };
+		04C5A1D61BBD26DA00435D7E /* MyEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1C81BBD26DA00435D7E /* MyEmoji.m */; };
+		04C5A1D71BBD26DA00435D7E /* MyEmojiCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1CA1BBD26DA00435D7E /* MyEmojiCategory.m */; };
+		04C5A1D81BBD26DA00435D7E /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5A1CC1BBD26DA00435D7E /* MyTableViewController.m */; };
 		04C5A1E11BBD284000435D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5A1BF1BBD26DA00435D7E /* LaunchScreen.storyboard */; };
 		04C5A1E21BBD284000435D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5A1C11BBD26DA00435D7E /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -123,7 +123,7 @@
 		04C5A18D1BBD24C100435D7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Sabatino Masala";
 				TargetAttributes = {
 					04C5A1941BBD24C100435D7E = {
@@ -223,13 +223,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -251,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,13 +274,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -288,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -336,6 +352,7 @@
 				04C5A1AE1BBD24C100435D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -48,3 +48,4 @@ Carthage/Build
 ### Objective-C Patch ###
 *.xcscmblueprint
 
+.DS_Store

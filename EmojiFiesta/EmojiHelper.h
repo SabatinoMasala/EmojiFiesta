@@ -11,16 +11,17 @@
 
 @interface NSObject (UIKeyboardEmojiCategory)
 
++ (NSArray *)categories;
 + (NSInteger)numberOfCategories;
 + (id)categoryForType:(NSInteger)type;
-+ (id)displayName:(int)arg1;
-- (void)setEmoji:(id)arg1;
 + (id)computeEmojiFlagsSortedByLanguage;
++ (NSString *)displayName:(long long)arg;
 
 @end
 
 @interface EmojiHelper : NSObject
 
-+ (NSArray<MyEmojiCategory *> *)getEmoji;
++ (NSArray<NSString *> *)getAllEmojis;
++ (NSArray<MyEmojiCategory *> *)getAllEmojisInCategories;
 
 @end
