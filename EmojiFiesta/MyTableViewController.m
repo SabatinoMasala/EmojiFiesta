@@ -25,7 +25,7 @@
   
   [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"emojiCell"];
   
-  self.emojiCategories = [EmojiHelper getEmoji];
+  self.emojiCategories = [EmojiHelper getAllEmojisInCategories];
   
 }
 
